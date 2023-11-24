@@ -1,0 +1,407 @@
+@media(max-width: 780px) {
+
+    /* burger_menu */
+        .navigation_container {
+            position: fixed;
+            top: 120px;
+            left: -100%;
+            background-color: #ffffff;
+            width: 20%;
+            height: 125px;
+            transition: .5s;
+        }
+    
+        .header_ul {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .see {
+            left: 0;
+        }
+    
+        .fa-xmark {
+            display: none;
+        }
+                 .header_li a {
+                     font-size: 12px;
+                 }
+        
+    /* icons */
+    .icons_width {
+        height: 25px;
+        width: 25px;
+    }
+
+    /* section4 image animation */
+    .watch {
+        width: 200px;
+        height: 270px;
+        background-size: 300px;
+        border-radius: 60px;
+    }
+
+    .container4 {
+        gap: 50px;
+    }
+
+    .section4_titl {
+        font-size: 30px;
+    }
+
+    .section4_text {
+        font-size: 12px;
+    }
+
+
+    /* section5 watch article */
+    .figure1 {
+        align-items: center;
+        flex-direction: column;
+    }
+        .figure1_texts{
+           align-items: center;
+        }
+
+    .figure1_title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .figure1_paragraph {
+        font-size: 20px;
+    }
+
+    .watch_article_image {
+        min-width: 80%;
+        margin-top: 10px;
+    }
+
+    .figure_button {
+        font-size: 18px;
+        width: 200px;
+        height: 50px;
+    }
+
+    /*  section6 watch_poster */
+
+    .section5_watch_poster {
+        height: 250px;
+
+    }
+
+    .section5_title {
+        font-size: 25px;
+        top: 55px;
+    }
+
+    .section5_text {
+        font-size: 8px;
+        top: 100px;
+    }
+
+    .section5_button {
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        width: 100px;
+        height: 50px;
+        padding: 23px 52.5px;
+        top: 150px;
+        border: none;
+
+    }
+
+    @keyframes border-top-right {
+        0% {
+            width: 0px;
+            height: 0px;
+        }
+
+        25% {
+            width: 105px;
+            height: 0px;
+        }
+
+        50% {
+            width: 105px;
+            height: 48px;
+        }
+
+        100% {
+            width: 105px;
+            height: 48px;
+        }
+
+    }
+
+    @keyframes border-bottom-left {
+        0% {
+            width: 0px;
+            height: 0px;
+            opacity: 0;
+        }
+
+        50% {
+            width: 0px;
+            height: 0px;
+            opacity: 0;
+        }
+
+        50.1% {
+            width: 0px;
+            height: 0px;
+            opacity: 0;
+        }
+
+        75% {
+            width: 105px;
+            height: 0px;
+            opacity: 1;
+        }
+
+        100% {
+            width: 105px;
+            height: 48px;
+            opacity: 1;
+        }
+
+
+    }
+
+    /* footer icons and submit */
+   .footer {
+       padding: 15px 20px;
+       height: 150px;
+   }
+
+   .search_and_icons {
+       flex-direction: column;
+   }
+
+   .footer_text {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+   }
+
+   .footer_text1 {
+       font-size: 10px;
+
+   }
+
+   .footer_text3 {
+       display: block;
+       color: #757575;
+       font-size: 10px;
+       margin: 5px;
+   }
+
+   .footer_text2 {
+       display: none;
+       font-size: 7px;
+
+   }
+
+   .footer_icons {
+
+       font-size: 20px;
+       gap: 10px;
+       margin-bottom: 20px;
+   }
+
+   .Email_for_ubscribe {
+       width: 100%;
+       height: 100%;
+   }
+
+   .Email_for_ubscribe input {
+       height: 100%;
+       width: 80%;
+   }
+
+   .Email_for_ubscribe span {
+       padding: 12px 10px;
+       font-size: 10px;
+   }
+
+   .footer_button {
+       font-size: 10px;
+       height: 100%;
+       width: 18%;
+   }
+
+
+   .Email_for_ubscribe input:focus~span,
+   .Email_for_ubscribe input:valid~span {
+       width: 90px;
+       height: 8px;
+       font-size: 5px;
+
+   }
+
+    /* footer logo */
+
+    .head_logo {
+        width: 50px;
+        height: 55px;
+    }
+
+    .brand_name_box {
+        font-size: 30px;
+    }
+
+    /* verticla_line */
+
+    .vertical_line {
+        width: calc(630 / 780 *100%);
+
+    }
+
+    .foooter2 {
+        width: calc(630 / 780 *100%);
+
+    }
+
+    .foooter2 p {
+        font-size: 10px;
+
+    }
+
+    .footer_text_collection a {
+        font-size: 10px;
+    }
+
+/* Collection_page */
+
+.select{
+  width: 150px;
+}
+
+.content h3{
+    font-size: 12px;
+}
+
+.content p{
+    font-size: 10px;
+} 
+
+.content h6{
+    font-size: 15px;
+}
+
+.figure_button10{
+    font-size: 12px;
+   
+}
+/* About_us */
+
+/* .About_us_image {
+    width: 250px;
+}
+
+
+.figure2_text h1 {
+    font-size: 25px;
+}
+
+.figure2_text p {
+    font-size: 10px;
+
+}
+
+.map2 {
+    width: 200px;
+    height: 350px;
+
+}
+
+
+.Our_Contact_text h2 {
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+
+.Our_Contact h3{
+    font-size: 15px;
+
+}
+
+
+} */
+
+.figure2 {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    gap: 20px;
+}
+
+.figure2_text {
+    width: 100%;
+}
+
+.figure2_text h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+.figure2_text p {
+    font-size: 12px;
+    table-layout: auto;
+    width: 100%;
+
+}
+
+.About_us_image {
+        width: 100%;
+            max-width: 100%;
+}
+
+/* Our Contact */
+.Our_Contact {
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.map2 {
+    width: 100%;
+    height: 250px;
+    max-width: 100%;
+    margin-top: 20px;
+
+}
+
+.Our_Contact {
+    display: flex;
+    margin: 100px auto;
+}
+
+.Our_Contact_text h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.Our_Contact h3 {
+    font-size: 15px;
+
+}
+
+.Our_Contact a {
+    font-size: 12px;
+}
+
+
+/* footer logo */
+.footer_logo {
+    padding: 30px 10px;
+}
+
+}
